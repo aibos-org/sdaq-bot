@@ -2,5 +2,6 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
+    "workbench.colorTheme": "Loyal (rainglow)",
     "editor.tabSize": 2
 }
