@@ -1,6 +1,7 @@
-import {GPTRequestBody, GPTResponse, AnswerRequestBody, AnswerResponseBody} from '@pages/types';
 import axios from 'axios';
 import {NextApiRequest, NextApiResponse} from 'next';
+import {GPTRequestBody, GPTResponse, AnswerRequestBody, AnswerResponseBody,
+} from 'types';
 
 const handler = (
     req: NextApiRequest,

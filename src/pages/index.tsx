@@ -7,8 +7,8 @@ import {
   DocumentsResponseBody,
   QueriesRequestBody,
   QueriesResponseBody,
-} from './types';
-import {reduceAnswerResponse, reduceDocumentsResponse, reduceHistory, reduceQueriesResponse} from './utils';
+} from '../types';
+import {reduceAnswerResponse, reduceDocumentsResponse, reduceHistory, reduceQueriesResponse} from '../utils';
 
 const ControllerComponent = () => {
   const [state, setState] = useState<State>({

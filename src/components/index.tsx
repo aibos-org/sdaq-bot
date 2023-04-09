@@ -1,4 +1,4 @@
-import {SearchQuery} from '@pages/types';
+import {SearchQuery} from 'types';
 
 export const ChatComponent = (props: Props): JSX.Element => {
   const {state, handlers} = props;

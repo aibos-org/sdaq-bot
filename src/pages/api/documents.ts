@@ -1,6 +1,6 @@
-import {DocumentsResponseBody} from '@pages/types';
 import axios, {AxiosResponse} from 'axios';
 import {NextApiRequest, NextApiResponse} from 'next';
+import {DocumentsResponseBody} from 'types';
 
 export interface SolrResponseBody {
   response: {
