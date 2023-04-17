@@ -25,7 +25,7 @@ const buildQueryString = (params: {[key: string]: string}) => {
 
 const handler = (req: NextApiRequest, res: NextApiResponse) => {
   const searchTerm = req.query.q as string;
-  const solrUrl = 'http://localhost:8983/solr/manuals/select';
+  const solrUrl = 'http://localhost:8983/solr/startup_manual/select';
   const params = {
     'q': `content:${searchTerm}`,
     'q.op': 'OR',
